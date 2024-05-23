@@ -1,0 +1,67 @@
+2024-02-03T19:21:57.020+01:00  INFO 21380 --- [main] tn.esprit.tpfoyer.TpFoyerApplication     : Starting TpFoyerApplication using Java 17.0.8 with PID 21380 (C:\Users\mehdi\IdeaProjects\Spring-main\target\classes started by Mehdi in C:\Users\mehdi\IdeaProjects\Spring-main)
+2024-02-03T19:21:57.029+01:00  INFO 21380 --- [main] tn.esprit.tpfoyer.TpFoyerApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-03T19:21:57.904+01:00  INFO 21380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-03T19:21:57.987+01:00  INFO 21380 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 6 JPA repository interfaces.
+2024-02-03T19:21:58.906+01:00  INFO 21380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2024-02-03T19:21:58.916+01:00  INFO 21380 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-03T19:21:58.917+01:00  INFO 21380 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2024-02-03T19:21:59.017+01:00  INFO 21380 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/a]      : Initializing Spring embedded WebApplicationContext
+2024-02-03T19:21:59.017+01:00  INFO 21380 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1936 ms
+2024-02-03T19:21:59.257+01:00  INFO 21380 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-03T19:21:59.336+01:00  INFO 21380 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2024-02-03T19:21:59.339+01:00  INFO 21380 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-03T19:21:59.525+01:00  INFO 21380 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-02-03T19:21:59.692+01:00  INFO 21380 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-03T19:21:59.712+01:00  INFO 21380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-03T19:21:59.899+01:00  INFO 21380 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6335f04a
+2024-02-03T19:21:59.901+01:00  INFO 21380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-03T19:21:59.964+01:00  WARN 21380 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2024-02-03T19:22:00.242+01:00  INFO 21380 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-02-03T19:22:01.018+01:00  INFO 21380 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-03T19:22:01.249+01:00  INFO 21380 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-03T19:22:01.945+01:00  INFO 21380 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-03T19:22:02.617+01:00  WARN 21380 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-03T19:22:03.489+01:00  INFO 21380 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path '/a'
+2024-02-03T19:22:03.500+01:00  INFO 21380 --- [main] tn.esprit.tpfoyer.TpFoyerApplication     : Started TpFoyerApplication in 6.927 seconds (process running for 7.625)
+2024-02-03T19:22:46.785+01:00  INFO 21380 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/a]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-03T19:22:46.786+01:00  INFO 21380 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-03T19:22:46.790+01:00  INFO 21380 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-02-03T19:22:46.880+01:00  INFO 21380 --- [http-nio-8083-exec-1] t.e.tpfoyer.configuration.LoggingAspect  : Entering method: getAllFoyer
+2024-02-03T19:22:47.150+01:00  INFO 21380 --- [http-nio-8083-exec-1] t.e.t.configuration.PerformanceAspect    : Method execution time: 270milliseconds.
+2024-02-03T19:22:47.151+01:00  INFO 21380 --- [http-nio-8083-exec-1] t.e.tpfoyer.configuration.LoggingAspect  : Exiting method: getAllFoyer
+2024-02-03T19:22:54.586+01:00  INFO 21380 --- [http-nio-8083-exec-5] t.e.tpfoyer.configuration.LoggingAspect  : Entering method: getAllBloc
+2024-02-03T19:22:54.623+01:00  INFO 21380 --- [http-nio-8083-exec-5] t.e.t.configuration.PerformanceAspect    : Method execution time: 37milliseconds.
+2024-02-03T19:22:54.624+01:00  INFO 21380 --- [http-nio-8083-exec-5] t.e.tpfoyer.configuration.LoggingAspect  : Exiting method: getAllBloc
+2024-02-03T19:22:54.662+01:00  INFO 21380 --- [http-nio-8083-exec-6] t.e.tpfoyer.configuration.LoggingAspect  : Entering method: getAllBloc
+2024-02-03T19:22:54.672+01:00  INFO 21380 --- [http-nio-8083-exec-6] t.e.t.configuration.PerformanceAspect    : Method execution time: 9milliseconds.
+2024-02-03T19:22:54.673+01:00  INFO 21380 --- [http-nio-8083-exec-6] t.e.tpfoyer.configuration.LoggingAspect  : Exiting method: getAllBloc
+2024-02-03T19:22:54.682+01:00  INFO 21380 --- [http-nio-8083-exec-7] t.e.tpfoyer.configuration.LoggingAspect  : Entering method: getAllBloc
+2024-02-03T19:22:54.692+01:00  INFO 21380 --- [http-nio-8083-exec-7] t.e.t.configuration.PerformanceAspect    : Method execution time: 9milliseconds.
+2024-02-03T19:22:54.693+01:00  INFO 21380 --- [http-nio-8083-exec-7] t.e.tpfoyer.configuration.LoggingAspect  : Exiting method: getAllBloc
+2024-02-03T19:23:13.002+01:00  INFO 21380 --- [http-nio-8083-exec-9] t.e.tpfoyer.configuration.LoggingAspect  : Entering method: ajouterBloc
+2024-02-03T19:23:13.057+01:00  INFO 21380 --- [http-nio-8083-exec-9] t.e.t.configuration.PerformanceAspect    : Method execution time: 54milliseconds.
+2024-02-03T19:23:13.059+01:00  INFO 21380 --- [http-nio-8083-exec-9] t.e.tpfoyer.configuration.LoggingAspect  : Exiting method: ajouterBloc
+2024-02-03T19:23:13.120+01:00  INFO 21380 --- [http-nio-8083-exec-10] t.e.tpfoyer.configuration.LoggingAspect  : Entering method: getAllBloc
+2024-02-03T19:23:13.138+01:00  INFO 21380 --- [http-nio-8083-exec-10] t.e.t.configuration.PerformanceAspect    : Method execution time: 15milliseconds.
+2024-02-03T19:23:13.138+01:00  INFO 21380 --- [http-nio-8083-exec-10] t.e.tpfoyer.configuration.LoggingAspect  : Exiting method: getAllBloc
+2024-02-03T19:23:13.150+01:00  INFO 21380 --- [http-nio-8083-exec-1] t.e.tpfoyer.configuration.LoggingAspect  : Entering method: getAllBloc
+2024-02-03T19:23:13.164+01:00  INFO 21380 --- [http-nio-8083-exec-1] t.e.t.configuration.PerformanceAspect    : Method execution time: 14milliseconds.
+2024-02-03T19:23:13.164+01:00  INFO 21380 --- [http-nio-8083-exec-1] t.e.tpfoyer.configuration.LoggingAspect  : Exiting method: getAllBloc
+2024-02-03T19:23:13.175+01:00  INFO 21380 --- [http-nio-8083-exec-3] t.e.tpfoyer.configuration.LoggingAspect  : Entering method: getAllBloc
+2024-02-03T19:23:13.196+01:00  INFO 21380 --- [http-nio-8083-exec-3] t.e.t.configuration.PerformanceAspect    : Method execution time: 20milliseconds.
+2024-02-03T19:23:13.196+01:00  INFO 21380 --- [http-nio-8083-exec-3] t.e.tpfoyer.configuration.LoggingAspect  : Exiting method: getAllBloc
+2024-02-03T19:23:31.164+01:00  INFO 21380 --- [http-nio-8083-exec-2] t.e.tpfoyer.configuration.LoggingAspect  : Entering method: getAllChambre
+2024-02-03T19:23:31.189+01:00  INFO 21380 --- [http-nio-8083-exec-2] t.e.t.configuration.PerformanceAspect    : Method execution time: 24milliseconds.
+2024-02-03T19:23:31.189+01:00  INFO 21380 --- [http-nio-8083-exec-2] t.e.tpfoyer.configuration.LoggingAspect  : Exiting method: getAllChambre
+2024-02-03T19:23:41.032+01:00  INFO 21380 --- [http-nio-8083-exec-7] t.e.tpfoyer.configuration.LoggingAspect  : Entering method: getChambre
+2024-02-03T19:23:41.053+01:00  INFO 21380 --- [http-nio-8083-exec-7] t.e.t.configuration.PerformanceAspect    : Method execution time: 20milliseconds.
+2024-02-03T19:23:41.054+01:00  INFO 21380 --- [http-nio-8083-exec-7] t.e.tpfoyer.configuration.LoggingAspect  : Exiting method: getChambre
+2024-02-03T19:23:41.054+01:00  INFO 21380 --- [http-nio-8083-exec-7] t.e.tpfoyer.configuration.LoggingAspect  : Entering method: supprimerChambre
+2024-02-03T19:23:41.082+01:00  INFO 21380 --- [http-nio-8083-exec-7] t.e.t.configuration.PerformanceAspect    : Method execution time: 28milliseconds.
+2024-02-03T19:23:41.082+01:00  INFO 21380 --- [http-nio-8083-exec-7] t.e.tpfoyer.configuration.LoggingAspect  : Exiting method: supprimerChambre
+2024-02-03T19:23:41.102+01:00  INFO 21380 --- [http-nio-8083-exec-8] t.e.tpfoyer.configuration.LoggingAspect  : Entering method: getAllChambre
+2024-02-03T19:23:41.119+01:00  INFO 21380 --- [http-nio-8083-exec-8] t.e.t.configuration.PerformanceAspect    : Method execution time: 17milliseconds.
+2024-02-03T19:23:41.119+01:00  INFO 21380 --- [http-nio-8083-exec-8] t.e.tpfoyer.configuration.LoggingAspect  : Exiting method: getAllChambre
+2024-02-03T19:23:59.460+01:00  INFO 21380 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-03T19:23:59.466+01:00  INFO 21380 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-03T19:23:59.480+01:00  INFO 21380 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
